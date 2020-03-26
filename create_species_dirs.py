@@ -3,10 +3,11 @@ create a directory for each species in the 'data' dir ('npy_files' and 'samples'
 of the given project.
 usage:
 python3 /create_species_dirs.py <project_name>
+
+
 """
 
-import os
-import sys
+import os,sys
 # get the directory of the script being run:
 base_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, base_path+'/CNN/')
